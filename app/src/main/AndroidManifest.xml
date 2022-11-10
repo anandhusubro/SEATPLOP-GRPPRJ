@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nithishkumar.seatplop">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SEATPLOP">
+        <activity android:name=".MainCourse.TicketActivity"></activity>
+        <activity android:name=".MainCourse.SeatStandActivity" />
+        <activity android:name=".MainCourse.DateTimeActivity" />
+        <activity android:name=".MainCourse.EventActivity" />
+        <activity android:name=".LoginSignup.Admin.VerifyStadiumIdActivity" />
+        <activity android:name=".LoginSignup.Admin.EditAdminDetalisActivity" />
+        <activity android:name=".LoginSignup.Admin.ScheduleEventActivity" />
+        <activity android:name=".LoginSignup.Admin.AddStadiumActivity" />
+        <activity android:name=".LoginSignup.Admin.AdminDashboardActivity" />
+        <activity android:name=".LoginSignup.Admin.AdminCodeActivity" />
+        <activity android:name=".LoginSignup.LocationSelectionActivity" />
+        <activity android:name=".MainCourse.MainActivity" />
+        <activity android:name=".LoginSignup.ForgotPasswordMessageActivity" />
+        <activity android:name=".LoginSignup.SetNewPasswordActivity" />
+        <activity android:name=".LoginSignup.MakeSelectionActivity" />
+        <activity android:name=".LoginSignup.ForgotPasswordActivity" />
+        <activity android:name=".LoginSignup.VerifyOtpActivity" />
+        <activity android:name=".LoginSignup.Signup3Activity" />
+        <activity android:name=".LoginSignup.Signup2Activity" />
+        <activity android:name=".LoginSignup.Signup1Activity" />
+        <activity android:name=".LoginSignup.LoginActivity" />
+        <activity android:name=".LoginSignup.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
